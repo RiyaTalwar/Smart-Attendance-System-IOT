@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/skeny/AndroidStudioProjects/SmartAttendanceApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/skeny/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/59f2aa6f224de6512445a598c2ae7e02/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/skeny/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8c27d2ba0635656380a87082c15756fc/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

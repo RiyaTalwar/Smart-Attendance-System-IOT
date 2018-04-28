@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SmartAttendanceApp</string>
+    <string name="incorrect_msg">Incorrect ID or password! Try Again!</string>
+</resources>
