@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <TextView
+            android:id="@+id/textViewCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Course"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#feba2c"
+            />
+
+        <TextView
+            android:id="@+id/textViewCName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Course Name"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#feba2c"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textViewAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Attendance"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#feba2c"
+            />
+
+        <TextView
+            android:id="@+id/textViewStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Student"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#feba2c"
+            />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#feba2c"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
