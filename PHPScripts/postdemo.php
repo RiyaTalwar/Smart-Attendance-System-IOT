@@ -15,6 +15,10 @@ define('DATABASE','id5262205_smartattendance');
     if (!$conn) {
         die("Database Connection failed ");
     }
+    else
+    {
+        echo "ok";
+    }
 
     //Get current date and time
     //date_default_timezone_set('Asia/Kolkata');
@@ -22,15 +26,15 @@ define('DATABASE','id5262205_smartattendance');
     //echo " Date:".$d."<BR>";
    // $t = date("H:i:s");
 
-    if(!empty($_POST['finger_id']) && !empty($_POST['course_Id']) && !empty($_POST['attendance']))
+    if(!empty($_POST['finger_id']) && !empty($_POST['course_id']) && !empty($_POST['attendance']))
     {
     	$finger_id = $_POST['finger_id'];
-    	$course_Id = $_POST['course_Id'];
+    	$course_id = $_POST['course_id'];
     	$attendance = $_POST['attendance'];
 
 	    $sql = "INSERT INTO course_attendance (finger_id, course_Id, attendance)
 		
-		VALUES ('".$finger_id."', '".$course_Id."', '".$attendance."')";
+		VALUES ('".$finger_id."', '".$course_id."', '".$attendance."')";
 
 		if ($conn->query($sql) === TRUE) {
 		    echo "OK";
