@@ -15,36 +15,35 @@
 
         <TextView
             android:id="@+id/textViewCourse"
-            android:layout_width="wrap_content"
+            android:layout_width="75dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Course"
+            android:text="I"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
             android:textColor="#feba2c"
             />
 
         <TextView
             android:id="@+id/textViewCName"
-            android:layout_width="100dp"
+            android:layout_width="51dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Course Name"
-            android:layout_marginLeft="10dp"
+            android:text="N"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-            android:textColor="#feba2c"
-            />
+            android:textColor="#feba2c" />
 
 
 
         <TextView
             android:id="@+id/textViewAttendance"
-            android:layout_width="wrap_content"
+            android:layout_width="25dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Attendance"
+            android:text="A"
             android:layout_marginLeft="10dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
             android:textColor="#feba2c"
@@ -56,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Student"
+            android:text="S"
             android:layout_marginLeft="15dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
             android:textColor="#feba2c"
@@ -69,7 +68,7 @@
             android:padding="8dp"
             android:layout_marginLeft="40dp"
             android:layout_height="wrap_content"
-            android:text="Date"
+            android:text="D"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
             android:textColor="#feba2c"
             />

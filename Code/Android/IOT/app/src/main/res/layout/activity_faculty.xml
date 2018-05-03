@@ -14,7 +14,7 @@
 
             <TextView
                 android:id="@+id/textViewCourse"
-                android:layout_width="7dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="8dp"
@@ -24,7 +24,7 @@
 
             <TextView
                 android:id="@+id/textViewCName"
-                android:layout_width="10dp"
+                android:layout_width="7dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="8dp"
@@ -34,7 +34,7 @@
 
             <TextView
                 android:id="@+id/textViewAttendance"
-                android:layout_width="9dp"
+                android:layout_width="7dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="8dp"
@@ -44,7 +44,7 @@
 
             <TextView
                 android:id="@+id/textViewStudent"
-                android:layout_width="8dp"
+                android:layout_width="7dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="8dp"
