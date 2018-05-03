@@ -32,4 +32,5 @@ that the student can now be careful about that in future.
 • Voltage Regulator for wifi module
 • Breadboard
 • Jumper Wires
- 
+
+ # NOTE: The proper implementation can be done after reading the project report which has been uploaded in report folder.
